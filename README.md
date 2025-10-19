@@ -1,16 +1,20 @@
-# React + Vite
+# FoodieExpress 🍔🍕🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FoodieExpress is a **web-based food delivery application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). It allows users to browse restaurants, place orders, and track deliveries in real-time.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse restaurants and their menus
+- User authentication and profiles
+- Add items to cart and place orders
+- Real-time order tracking
+- Admin panel to manage restaurants and orders
+- Responsive design for mobile and desktop
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** React.js, HTML5, CSS3, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens)
+- **State Management:** Redux (optional if used)
+- **Deployment:** [Add your hosting platform here, e.g., Heroku, Vercel]
