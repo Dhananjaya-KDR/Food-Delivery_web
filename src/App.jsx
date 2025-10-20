@@ -15,7 +15,6 @@ const App = () => {
           <Route path ='/order' element ={<placeOder/>} />
 
       </Routes>
-      
     </div>
   )
 }
