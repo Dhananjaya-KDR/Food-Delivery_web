@@ -1,13 +1,14 @@
 import React, { useContext } from 'react'
 import './foodDisplay.css'
-import { storeContext } from '../../context/storeContext'
+import  {StoreContext } from '../../context/StoreContext'
 
-const FoodDisplay = ({category}) => {
 
-    const {food_list =[]} = useContext(storeContext)
+const foodDisplay = ({category}) => {
+
+    const {food_list=[]} = useContext(StoreContext)
 
   return (
-    <div className='food-display' id ='food-display'>
+    <div className ='food-display' id ='food-display'>
 
         <h2>Top dishes near you</h2>
       
@@ -15,4 +16,4 @@ const FoodDisplay = ({category}) => {
   )
 }
 
-export default FoodDisplay
+export default foodDisplay
